@@ -17,6 +17,7 @@ public class CalculadoraTela extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        filler1 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 32767));
         jPanel1 = new javax.swing.JPanel();
         botao0 = new javax.swing.JButton();
         botao1 = new javax.swing.JButton();
@@ -80,7 +81,6 @@ public class CalculadoraTela extends javax.swing.JFrame {
         botao3.setForeground(new java.awt.Color(255, 255, 255));
         botao3.setText("3");
         botao3.setBorderPainted(false);
-        botao3.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         botao3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botao3ActionPerformed(evt);
@@ -213,7 +213,7 @@ public class CalculadoraTela extends javax.swing.JFrame {
         });
 
         botaoC.setBackground(new java.awt.Color(71, 71, 71));
-        botaoC.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        botaoC.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         botaoC.setForeground(new java.awt.Color(255, 255, 255));
         botaoC.setText("C");
         botaoC.setBorderPainted(false);
@@ -231,7 +231,7 @@ public class CalculadoraTela extends javax.swing.JFrame {
         telaCalculadora.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         botaoCE.setBackground(new java.awt.Color(71, 71, 71));
-        botaoCE.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        botaoCE.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         botaoCE.setForeground(new java.awt.Color(255, 255, 255));
         botaoCE.setText("CE");
         botaoCE.setBorderPainted(false);
@@ -295,7 +295,7 @@ public class CalculadoraTela extends javax.swing.JFrame {
                                                 .addComponent(botao2, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(botao3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(botao3, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(botaoPonto, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE))))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -351,7 +351,7 @@ public class CalculadoraTela extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -503,6 +503,7 @@ public class CalculadoraTela extends javax.swing.JFrame {
     private javax.swing.JButton botaoResultado;
     private javax.swing.JButton botaoSoma;
     private javax.swing.JButton botaoSubtracao;
+    private javax.swing.Box.Filler filler1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField telaCalculadora;
     // End of variables declaration//GEN-END:variables
